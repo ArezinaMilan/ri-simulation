@@ -1,0 +1,123 @@
+{
+    "PredatorBehaviour": {
+        "checkpoints": [
+            {
+                "steps": 7499972,
+                "file_path": "results\\final\\PredatorBehaviour\\PredatorBehaviour-7499972.onnx",
+                "reward": -6.113541125009458,
+                "creation_time": 1720040427.1847405,
+                "auxillary_file_paths": [
+                    "results\\final\\PredatorBehaviour\\PredatorBehaviour-7499972.pt"
+                ]
+            },
+            {
+                "steps": 7989594,
+                "file_path": "results\\final\\PredatorBehaviour\\PredatorBehaviour-7989594.onnx",
+                "reward": null,
+                "creation_time": 1720040930.9730804,
+                "auxillary_file_paths": [
+                    "results\\final\\PredatorBehaviour\\PredatorBehaviour-7989594.pt"
+                ]
+            },
+            {
+                "steps": 7999990,
+                "file_path": "results\\final\\PredatorBehaviour\\PredatorBehaviour-7999990.onnx",
+                "reward": -2.6299995283285775,
+                "creation_time": 1720041044.3286746,
+                "auxillary_file_paths": [
+                    "results\\final\\PredatorBehaviour\\PredatorBehaviour-7999990.pt"
+                ]
+            },
+            {
+                "steps": 8499974,
+                "file_path": "results\\final\\PredatorBehaviour\\PredatorBehaviour-8499974.onnx",
+                "reward": -6.313938840772167,
+                "creation_time": 1720041559.0397124,
+                "auxillary_file_paths": [
+                    "results\\final\\PredatorBehaviour\\PredatorBehaviour-8499974.pt"
+                ]
+            },
+            {
+                "steps": 8706819,
+                "file_path": "results\\final\\PredatorBehaviour\\PredatorBehaviour-8706819.onnx",
+                "reward": -7.904666038354238,
+                "creation_time": 1720041769.6797526,
+                "auxillary_file_paths": [
+                    "results\\final\\PredatorBehaviour\\PredatorBehaviour-8706819.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 8706819,
+            "file_path": "results\\final\\PredatorBehaviour.onnx",
+            "reward": -7.904666038354238,
+            "creation_time": 1720041769.6797526,
+            "auxillary_file_paths": [
+                "results\\final\\PredatorBehaviour\\PredatorBehaviour-8706819.pt"
+            ]
+        }
+    },
+    "PreyBehaviour": {
+        "checkpoints": [
+            {
+                "steps": 4499988,
+                "file_path": "results\\final\\PreyBehaviour\\PreyBehaviour-4499988.onnx",
+                "reward": 8.091110492746035,
+                "creation_time": 1720039851.987307,
+                "auxillary_file_paths": [
+                    "results\\final\\PreyBehaviour\\PreyBehaviour-4499988.pt"
+                ]
+            },
+            {
+                "steps": 4999970,
+                "file_path": "results\\final\\PreyBehaviour\\PreyBehaviour-4999970.onnx",
+                "reward": 11.309046813419886,
+                "creation_time": 1720040654.29318,
+                "auxillary_file_paths": [
+                    "results\\final\\PreyBehaviour\\PreyBehaviour-4999970.pt"
+                ]
+            },
+            {
+                "steps": 5181294,
+                "file_path": "results\\final\\PreyBehaviour\\PreyBehaviour-5181294.onnx",
+                "reward": null,
+                "creation_time": 1720040931.0951095,
+                "auxillary_file_paths": [
+                    "results\\final\\PreyBehaviour\\PreyBehaviour-5181294.pt"
+                ]
+            },
+            {
+                "steps": 5499980,
+                "file_path": "results\\final\\PreyBehaviour\\PreyBehaviour-5499980.onnx",
+                "reward": 10.615713532481875,
+                "creation_time": 1720041515.6072123,
+                "auxillary_file_paths": [
+                    "results\\final\\PreyBehaviour\\PreyBehaviour-5499980.pt"
+                ]
+            },
+            {
+                "steps": 5665900,
+                "file_path": "results\\final\\PreyBehaviour\\PreyBehaviour-5665900.onnx",
+                "reward": 10.144472922149458,
+                "creation_time": 1720041769.7952247,
+                "auxillary_file_paths": [
+                    "results\\final\\PreyBehaviour\\PreyBehaviour-5665900.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 5665900,
+            "file_path": "results\\final\\PreyBehaviour.onnx",
+            "reward": 10.144472922149458,
+            "creation_time": 1720041769.7952247,
+            "auxillary_file_paths": [
+                "results\\final\\PreyBehaviour\\PreyBehaviour-5665900.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.3.1+cu118"
+    }
+}
