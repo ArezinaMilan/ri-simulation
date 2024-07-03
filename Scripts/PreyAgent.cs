@@ -84,7 +84,7 @@ public class PreyAgent : Agent
 
     public void OnHit()
     {
-        AddReward(-15f);
+        AddReward(-2f);
         gameObject.SetActive(false);
     }
 

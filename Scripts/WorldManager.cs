@@ -107,11 +107,6 @@ public class WorldManager : MonoBehaviour
             PreyAgent preyAgent = prey.GetComponent<PreyAgent>();
             if (preyAgent != null)
             {
-                if (prey.activeSelf)
-                {
-                    preyAgent.AddReward(15f); // Reward for surviving
-                }
-
                 preyAgent.EndEpisode();
                 prey.SetActive(true); // Ensure prey are active for next episode
             }

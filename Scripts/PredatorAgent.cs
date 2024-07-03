@@ -48,7 +48,7 @@ public class PredatorAgent : Agent
         transform.position += moveDir * Time.deltaTime;
         transform.Rotate(0, rotation * Time.deltaTime, 0);
 
-        AddReward(-0.01f); // Penalize for each step
+        AddReward(-0.005f); // Penalize for each step
     }
 
     public override void Heuristic(in ActionBuffers actionsOut)
@@ -88,7 +88,7 @@ public class PredatorAgent : Agent
     {
         if (collision.gameObject.tag == "PreyAgent")
         {
-            AddReward(15f);
+            AddReward(2f);
 
             PreyAgent preyAgent = collision.gameObject.GetComponent<PreyAgent>();
             if (preyAgent != null)
