@@ -6,7 +6,7 @@ Ovaj projekat sadrži sledeće foldere i fajlove:
 
 - **Scripts**: Ovde se nalaze sve ključne skripte projekta.
 - **Results**: Folder koji sadrži rezultate treniranja.
-- **Simulation**: Sadrži izvršnu datoteku `PreyVsPredator.exe` za pokretanje simulacije. Za zaustavljanje simulacije potrebno je koristiti Task Manager, jer funkcionalnost izlaza nije implementirana.
+- **Simulation**: Sadrži izvršnu datoteku `PreyVsPredator.exe` za pokretanje simulacije. Za zaustavljanje simulacije potrebno je koristiti Task Manager (ili Alt + F4), jer funkcionalnost izlaza nije implementirana (oops).
 - **Presentation**: PowerPoint prezentacija projekta.
 
 ## Autor
